@@ -9,4 +9,17 @@ div {
 
 .sidebar {
     grid-row: span 2;
+    display: grid;
+}
+
+ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.logo, .nav1, .nav2 {
+    display: grid;
+    justify-content: center;
+    border: 1px solid red;
 }
