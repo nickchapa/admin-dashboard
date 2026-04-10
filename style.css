@@ -31,6 +31,15 @@
     grid-row: span 2;
 }
 
+.announcements-grid {
+    display: grid;
+    gap: 8px;
+}
+
+.announce {
+    border: 1px solid blue;
+}
+
 .trending {
     grid-column: 2 / 3;
 }
