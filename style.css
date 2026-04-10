@@ -35,6 +35,16 @@
     grid-column: 2 / 3;
 }
 
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 16px;
+}
+
+.card {
+    border: 1px solid blue;
+}
+
 ul, li {
     list-style: none;
     padding: 0;
