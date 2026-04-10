@@ -12,6 +12,11 @@ div {
     display: grid;
 }
 
+.header {
+    display: grid;
+    grid-template: 2fr 1fr / 2fr 1fr;
+}
+
 ul, li {
     list-style: none;
     padding: 0;
