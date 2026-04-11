@@ -66,16 +66,14 @@
 }
 
 .card {
-    border: 1px solid blue;
     border-radius: 5px;
     display: grid;
     grid-template-rows: 2fr 1fr;
     background: linear-gradient(to right, gold 3%, white 3% 100%);
-    margin: 5px;
 }
 
-.card div {
-    border: 1px solid pink;
+.card-title, .card-info {
+    margin-left: 15px;
 }
 
 .card-title {
@@ -88,6 +86,7 @@
 
 .card-icons {
     place-self: center end;
+    margin-right: 10px;
 }
 
 .card-svg {
