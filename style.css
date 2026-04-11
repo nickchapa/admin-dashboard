@@ -21,6 +21,11 @@
 .main-content{
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
+    background-color: rgb(236, 236, 236);
+}
+
+.content-title {
+    font-size: 1.1rem;
 }
 
 .projects, .announcements, .trending {
@@ -56,11 +61,36 @@
 .card-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    gap: 16px;
 }
 
 .card {
     border: 1px solid blue;
+    border-radius: 5px;
+    display: grid;
+    grid-template-rows: 2fr 1fr;
+    background: linear-gradient(to right, gold 3%, white 3% 100%);
+    margin: 5px;
+}
+
+.card div {
+    border: 1px solid pink;
+}
+
+.card-title {
+    font-size: 1rem;
+}
+
+.card-info {
+    font-size: 0.7rem;
+}
+
+.card-icons {
+    place-self: center end;
+}
+
+.card-svg {
+    width: 15px;
+    padding: 5px;
 }
 
 ul, li {
