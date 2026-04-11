@@ -28,8 +28,10 @@
     font-size: 1.1rem;
 }
 
-.projects, .announcements, .trending {
-    border: 1px solid red;
+.card, .announcements, .trending {
+    background-color: white;
+    margin: 10px;
+    border-radius: 5px;
 }
 
 .projects {
