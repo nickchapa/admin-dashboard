@@ -28,9 +28,8 @@
     font-size: 1.1rem;
 }
 
-.card, .announcements, .trending {
+.card, .announcements-grid, .trending-grid {
     background-color: white;
-    margin: 10px;
     border-radius: 5px;
 }
 
@@ -38,13 +37,25 @@
     grid-row: span 2;
 }
 
-.announcements-grid {
-    display: grid;
-    gap: 8px;
+.announcements {
+    margin: 10px;
 }
 
-.announce {
-    border: 1px solid blue;
+.announcements-grid {
+    display: grid;
+    padding: 0px 10px;
+}
+
+.announce-title {
+    font-size: 0.7rem;
+}
+
+.announce-info {
+    font-size: 0.5rem;
+}
+
+.announce:not(.announce:last-child) {
+    border-bottom: 1px solid lightgray;
 }
 
 .trending {
