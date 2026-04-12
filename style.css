@@ -7,6 +7,28 @@
 .sidebar {
     grid-row: span 2;
     display: grid;
+    align-content: start;
+    justify-content: start;
+    padding: 10px;
+    background-color: skyblue;
+}
+
+.sidebar>*:not(.sidebar>*:last-child) {
+    margin-bottom: 10px;
+}
+
+.nav1 > li, .nav2 > li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: end;
+}
+
+.logo {
+    width: 100px;
+}
+
+.nav-icon {
+    width: 25px;
 }
 
 .header {
@@ -129,10 +151,4 @@ ul, li {
     list-style: none;
     padding: 0;
     margin: 0;
-}
-
-.logo, .nav1, .nav2 {
-    display: grid;
-    justify-content: center;
-    border: 1px solid red;
 }
