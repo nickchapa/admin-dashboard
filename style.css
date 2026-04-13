@@ -40,6 +40,11 @@
     border: 1px solid red;
 }
 
+#search-bar {
+    border-radius: 10px;
+    width: 75%;
+}
+
 .main-content{
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
