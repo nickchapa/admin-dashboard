@@ -33,7 +33,17 @@
 
 .header {
     display: grid;
-    grid-template: 2fr 1fr / 2fr 1fr;
+    grid-template: 1fr 1fr / 2fr 1fr;
+}
+
+.welcome {
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+
+.user-icon-large {
+    width: 50px;
+    grid-row: span 2;
 }
 
 .search, .user-info, .welcome, .header-buttons {
