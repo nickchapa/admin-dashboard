@@ -55,6 +55,34 @@
     width: 75%;
 }
 
+.user-info {
+    display: grid;
+    /* grid-template-columns: repeat(auto-fit, minmax(25px, 1fr)); */
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+}
+
+.user-info-name {
+    font-size: 0.9rem;
+}
+
+.user-info > * {
+    border: 1px solid pink;
+}
+
+.user-info > * {
+    border: 1px solid pink;
+}
+
+.alert-icon {
+    width: 15px;
+}
+
+.user-icon-small {
+    width: 25px;
+}
+
 .main-content{
     display: grid;
     grid-template: 1fr 1fr / 3fr 1fr;
