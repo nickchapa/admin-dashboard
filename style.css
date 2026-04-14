@@ -66,6 +66,12 @@
 .welcome {
     display: grid;
     grid-template-columns: 1fr 8fr;
+    margin-left: 15px;
+}
+
+.user-welcome-text {
+    font-size: 0.6rem;
+    align-self: end;
 }
 
 .user-icon-large {
