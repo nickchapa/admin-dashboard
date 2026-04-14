@@ -50,9 +50,27 @@
     border: 1px solid red;
 }
 
+.search {
+    display: grid;
+    align-self: center;
+    justify-content: center;
+    grid-template-columns: 10% 80%;
+    gap: 10px;
+}
+
 #search-bar {
+    border: none;
     border-radius: 10px;
-    width: 75%;
+    background-color: rgb(236, 236, 236);
+}
+
+.search-label {
+    display: grid;
+    justify-items: end;
+}
+
+.search-icon {
+    max-width: 20px;
 }
 
 .user-info {
