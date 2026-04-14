@@ -36,10 +36,6 @@
     grid-template: 1fr 1fr / 2fr 1fr;
 }
 
-.search, .user-info, .welcome, .header-buttons {
-    border: 1px solid red;
-}
-
 .search {
     display: grid;
     align-self: center;
@@ -89,14 +85,6 @@
 
 .user-info-name {
     font-size: 0.9rem;
-}
-
-.user-info > * {
-    border: 1px solid pink;
-}
-
-.user-info > * {
-    border: 1px solid pink;
 }
 
 .alert-icon {
