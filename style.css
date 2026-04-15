@@ -199,7 +199,7 @@ body {
     border-radius: 5px;
     display: grid;
     grid-template-rows: 2fr 1fr;
-    background: linear-gradient(to right, gold 3%, white 3% 100%);
+    background: linear-gradient(to right, gold 10px, white 10px 100%);
 }
 
 .card-title, .card-info {
