@@ -55,8 +55,10 @@ body {
 }
 
 .search-label {
+    min-width: 25px;
     display: grid;
     margin-left: 5px;
+    justify-self: end;
 }
 
 .search-icon {
