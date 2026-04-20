@@ -4,7 +4,7 @@ body {
 
 .container {
     display: grid;
-    grid-template: 1fr 5fr / 1fr 5fr;
+    grid-template: 1fr 5fr / 1fr 4fr;
     height: 100vh;
 }
 
@@ -24,15 +24,21 @@ body {
 .nav1 > li, .nav2 > li {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    align-items: end;
+    align-items: center;
+    justify-items: center;
+    border: 1px solid pink;
 }
 
 .logo {
-    width: 100px;
+    width: max(100px, 15vw);
 }
 
 .nav-icon {
-    width: 25px;
+    width: max(25px, 5vw);
+}
+
+.nav-text {
+    font-size: max(1rem, 2vw);
 }
 
 .header {
