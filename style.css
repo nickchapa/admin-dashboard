@@ -5,7 +5,6 @@ body {
 .container {
     display: grid;
     grid-template: 1fr 5fr / 1fr 4fr;
-    height: 100vh;
 }
 
 .sidebar {
@@ -197,7 +196,6 @@ body {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
-    height: min(500px, 75vh);
 }
 
 .card {
